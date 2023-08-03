@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF43FD82A7B6E3500788FE5 /* NoconWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF43FD72A7B6E3500788FE5 /* NoconWatchApp.swift */; };
+		FDF43FDA2A7B6E3500788FE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF43FD92A7B6E3500788FE5 /* ContentView.swift */; };
+		FDF43FDC2A7B6E3600788FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF43FDB2A7B6E3600788FE5 /* Assets.xcassets */; };
+		FDF43FDF2A7B6E3600788FE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDF43FDE2A7B6E3600788FE5 /* Preview Assets.xcassets */; };
+		FDF43FE82A7B6EC000788FE5 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF43FE72A7B6EC000788FE5 /* Setting.swift */; };
+		FDF43FEE2A7B740C00788FE5 /* DigitalWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF43FED2A7B740C00788FE5 /* DigitalWatchView.swift */; };
+		FDF43FF02A7B923000788FE5 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF43FEF2A7B923000788FE5 /* ClockView.swift */; };
+		FDF43FF22A7B92E300788FE5 /* ClockHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF43FF12A7B92E300788FE5 /* ClockHands.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FDF43FD42A7B6E3500788FE5 /* NoconWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoconWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF43FD72A7B6E3500788FE5 /* NoconWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoconWatchApp.swift; sourceTree = "<group>"; };
+		FDF43FD92A7B6E3500788FE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDF43FDB2A7B6E3600788FE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDF43FDE2A7B6E3600788FE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDF43FE72A7B6EC000788FE5 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		FDF43FE92A7B709F00788FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FDF43FED2A7B740C00788FE5 /* DigitalWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalWatchView.swift; sourceTree = "<group>"; };
+		FDF43FEF2A7B923000788FE5 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		FDF43FF12A7B92E300788FE5 /* ClockHands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockHands.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF43FD12A7B6E3500788FE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF43FCB2A7B6E3500788FE5 = {
+			isa = PBXGroup;
+			children = (
+				FDF43FD62A7B6E3500788FE5 /* NoconWatch */,
+				FDF43FD52A7B6E3500788FE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF43FD52A7B6E3500788FE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF43FD42A7B6E3500788FE5 /* NoconWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF43FD62A7B6E3500788FE5 /* NoconWatch */ = {
+			isa = PBXGroup;
+			children = (
+				FDF43FE92A7B709F00788FE5 /* Info.plist */,
+				FDF43FD72A7B6E3500788FE5 /* NoconWatchApp.swift */,
+				FDF43FE62A7B6E7500788FE5 /* Util */,
+				FDF43FE52A7B6E6800788FE5 /* Views */,
+				FDF43FDB2A7B6E3600788FE5 /* Assets.xcassets */,
+				FDF43FDD2A7B6E3600788FE5 /* Preview Content */,
+			);
+			path = NoconWatch;
+			sourceTree = "<group>";
+		};
+		FDF43FDD2A7B6E3600788FE5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDF43FDE2A7B6E3600788FE5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDF43FE52A7B6E6800788FE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDF43FD92A7B6E3500788FE5 /* ContentView.swift */,
+				FDF43FEC2A7B73FA00788FE5 /* ChildViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FDF43FE62A7B6E7500788FE5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FDF43FE72A7B6EC000788FE5 /* Setting.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		FDF43FEC2A7B73FA00788FE5 /* ChildViews */ = {
+			isa = PBXGroup;
+			children = (
+				FDF43FED2A7B740C00788FE5 /* DigitalWatchView.swift */,
+				FDF43FEF2A7B923000788FE5 /* ClockView.swift */,
+				FDF43FF12A7B92E300788FE5 /* ClockHands.swift */,
+			);
+			path = ChildViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF43FD32A7B6E3500788FE5 /* NoconWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF43FE22A7B6E3600788FE5 /* Build configuration list for PBXNativeTarget "NoconWatch" */;
+			buildPhases = (
+				FDF43FD02A7B6E3500788FE5 /* Sources */,
+				FDF43FD12A7B6E3500788FE5 /* Frameworks */,
+				FDF43FD22A7B6E3500788FE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoconWatch;
+			productName = NoconWatch;
+			productReference = FDF43FD42A7B6E3500788FE5 /* NoconWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF43FCC2A7B6E3500788FE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FDF43FD32A7B6E3500788FE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FDF43FCF2A7B6E3500788FE5 /* Build configuration list for PBXProject "NoconWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF43FCB2A7B6E3500788FE5;
+			productRefGroup = FDF43FD52A7B6E3500788FE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF43FD32A7B6E3500788FE5 /* NoconWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDF43FD22A7B6E3500788FE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF43FDF2A7B6E3600788FE5 /* Preview Assets.xcassets in Resources */,
+				FDF43FDC2A7B6E3600788FE5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF43FD02A7B6E3500788FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF43FF22A7B92E300788FE5 /* ClockHands.swift in Sources */,
+				FDF43FEE2A7B740C00788FE5 /* DigitalWatchView.swift in Sources */,
+				FDF43FF02A7B923000788FE5 /* ClockView.swift in Sources */,
+				FDF43FDA2A7B6E3500788FE5 /* ContentView.swift in Sources */,
+				FDF43FD82A7B6E3500788FE5 /* NoconWatchApp.swift in Sources */,
+				FDF43FE82A7B6EC000788FE5 /* Setting.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDF43FE02A7B6E3600788FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDF43FE12A7B6E3600788FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDF43FE32A7B6E3600788FE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoconWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = T9U9A227FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoconWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "デジタル時計";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroki.NoconWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDF43FE42A7B6E3600788FE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoconWatch/Preview Content\"";
+				DEVELOPMENT_TEAM = T9U9A227FB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoconWatch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "デジタル時計";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hiroki.NoconWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF43FCF2A7B6E3500788FE5 /* Build configuration list for PBXProject "NoconWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF43FE02A7B6E3600788FE5 /* Debug */,
+				FDF43FE12A7B6E3600788FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF43FE22A7B6E3600788FE5 /* Build configuration list for PBXNativeTarget "NoconWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF43FE32A7B6E3600788FE5 /* Debug */,
+				FDF43FE42A7B6E3600788FE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF43FCC2A7B6E3500788FE5 /* Project object */;
+}
